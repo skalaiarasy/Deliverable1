@@ -22,29 +22,29 @@ namespace Deliverable1
                 if (mea_type == "inch")
                 {
                     double fidge_convert = giv_amount * 3.5;
-                    Console.WriteLine(giv_amount + "  inches = " + fidge_convert + "  fidge spinners");
+                    Console.WriteLine(giv_amount + "  inches = " + fidge_convert + "  fidget spinners");
                 }
 
-                else if (mea_type == "fidge")
+                else if (mea_type == "fidget spinner")
                 {
                     double inch_convert = giv_amount / 3.5;
                     Console.WriteLine(giv_amount + "  fidget spinners = " + inch_convert + "  inches");
                 }
-                else if (mea_type == "feet")
+                else if (mea_type == "foot")
                 {
                     double memes_cenvert = giv_amount * 5;
-                    Console.WriteLine(giv_amount + "  feet =  " + memes_cenvert + "  memes");
+                    Console.WriteLine(giv_amount + "  foot =  " + memes_cenvert + "  memes");
                 }
-                else if (mea_type == "memes")
+                else if (mea_type == "meme")
                 {
                     double feet_cenvert = giv_amount / 5;
-                    Console.WriteLine(giv_amount + "  memes =  " + feet_cenvert + "  feet");
+                    Console.WriteLine(giv_amount + "  memes =  " + feet_cenvert + "  foot");
                 }
 
-                Console.WriteLine("Press y to continue n to exit");
+                Console.WriteLine("\nPress 'yes' to continue or give anything to exit");
                 string input = Console.ReadLine();
 
-                if (input == "y")
+                if (input == "yes")
                 {
                     status = true;
                 }
